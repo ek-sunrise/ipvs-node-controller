@@ -1,4 +1,6 @@
 # IPVS Node Controller 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fek-sunrise%2Fipvs-node-controller.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fek-sunrise%2Fipvs-node-controller?ref=badge_shield)
+
 
 ipvs-node-controller is the kubernetes controller that solves External-IP (Load Balancer IP) issue with IPVS proxy mode. IPVS proxy mode has various problems, and one of them is that the External-IP assigned through the LoadBalancer type service with externalTrafficPolicy=Local option cannot access inside the cluster. More details on this issue can be found at [here](https://github.com/kubernetes/kubernetes/issues/75262). ipvs-node-controller solves this issue. ipvs-node-controller is based on [kubebuilder](https://github.com/kubernetes-sigs/kubebuilder).
 
@@ -53,3 +55,6 @@ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
 WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 License for the specific language governing permissions and limitations under
 the License.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fek-sunrise%2Fipvs-node-controller.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fek-sunrise%2Fipvs-node-controller?ref=badge_large)
